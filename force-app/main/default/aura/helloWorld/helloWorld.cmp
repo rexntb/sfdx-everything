@@ -1,0 +1,13 @@
+<aura:component implements="force:appHostable">
+    <lightning:tabset>
+        <lightning:tab label="2019">
+            Working on becoming a super developer!
+        </lightning:tab>
+        <lightning:tab label="2020" title="What will happen?">
+            I will take and pass my Platform Developer 1 certification exam!
+        </lightning:tab>
+        <lightning:tab label="2021">
+            I will be a master developer!
+        </lightning:tab>
+    </lightning:tabset>
+</aura:component>
