@@ -12,7 +12,7 @@ private class AccountProcessorTest {
         for (Integer i = 0; i < 3; i++) {
             Contact con = new Contact();
             con.FirstName = 'Marc';
-            con.LastName = 'Benioff ' + i;
+            con.LastName = 'Benioff' + i;
             con.AccountId = acc.Id;
             childContacts.add(con);
         }

@@ -9,8 +9,8 @@ global class AccountProcessor {
     for (Account acc : accounts) {
         // Update the Number_of_Contacts__c field with the number of contacts
         acc.Number_of_Contacts__c = [SELECT count() 
-                                         FROM Contact
-                                        WHERE AccountId = :acc.Id];
+                                       FROM Contact
+                                      WHERE AccountId = :acc.Id];
     }
     update accounts;
   }

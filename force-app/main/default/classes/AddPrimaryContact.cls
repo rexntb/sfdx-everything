@@ -15,7 +15,7 @@ public class AddPrimaryContact implements Queueable {
                                    WHERE BillingState = :state
                                    LIMIT 200];
         Contact primCon = [SELECT Id, FirstName, LastName
-                            FROM Contact
+                             FROM Contact
                             WHERE Id = :contact.Id];
         // Insert contact for each account
         List<Contact> contacts = new List<Contact>();
